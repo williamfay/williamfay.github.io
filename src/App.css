@@ -5,12 +5,27 @@
   text-align: center;
 }
 
-.card {
-  padding: 2em;
+nav {
+  display: flex;
+  justify-content: space-around;
 }
 
-nav li {
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
   list-style: none;
-  display: inline-block;
-  margin: 1em;
+  padding: 0em 1em 0em 1em
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: auto; 
+}
+
+.main-header {
+  font-family: 'Inspiration', cursive;
 }

@@ -1,6 +1,6 @@
 
 export default function History() {
     return (
-        <h1>Work History</h1>
+        <h2>Work History</h2>
     )
 }

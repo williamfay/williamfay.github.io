@@ -1,6 +1,6 @@
 
 export default function About() {
     return (
-        <h1>About Me</h1>
+        <h2>About Me</h2>
     )
 }
