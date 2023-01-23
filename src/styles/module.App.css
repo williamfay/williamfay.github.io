@@ -1,31 +1,10 @@
+/*Clean up App.css so that it doesn't affect other docs*/
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 600px;
-}
-
-
-ul {
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  align-items: center;
-  padding-left: 0px;
-
-}
-
-li {
-  list-style: none;
-  padding: 0em 1em 0em 1em;
 }
 
 img {
@@ -67,7 +46,7 @@ img {
   border-radius: 8px;
   color: #F6F6C9;
   box-shadow: 10px 10px black;
-  text-shadow: 0.5px 0.5px black;
+  text-shadow: 0.5px 0px black;
   padding-bottom: 20px;
 }
 

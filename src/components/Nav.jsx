@@ -1,8 +1,9 @@
-import '../styles/module.App.css'
+import '../styles/module.nav.css'
 import { Link } from 'react-router-dom';
 
 export default function Nav() {
     return (
+        <>
         <nav>
             <ul>
                 <li><Link to='/'>Home</Link></li>
@@ -12,5 +13,6 @@ export default function Nav() {
                 <li><Link to='/history'>Work History</Link></li>
             </ul>
       </nav>
+      </>
     )
 }

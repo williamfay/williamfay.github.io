@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+  }
+  
+  
+  ul {
+  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    padding-left: 0px;
+  
+  }
+  
+  li {
+    list-style: none;
+    padding: 0em 1em 0em 1em;
+  }
