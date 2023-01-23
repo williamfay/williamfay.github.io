@@ -1,8 +1,11 @@
-import '../App.css';
+import '../styles/module.header.css';
 
 function Header() {
     return (
-        <h1 class='main-header'>William R. Fay</h1>
+        <>
+        <h1 class='main-header'>W i l l i a m   R.   F a y</h1>
+        <h3 class='tag'>Software Developer</h3>
+        </>
     )
 }
 

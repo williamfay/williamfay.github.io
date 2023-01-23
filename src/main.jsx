@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './index.css';
+import './styles/module.index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import About from './about-me';
-import Projects from './projects';
-import Hobbies from './hobbies';
-import History from './work-history';
+import About from './components/about-me';
+import Projects from './components/projects';
+import Hobbies from './components/hobbies';
+import History from './components/work-history';
 import Index from './index.jsx'
 
 const router = createBrowserRouter([

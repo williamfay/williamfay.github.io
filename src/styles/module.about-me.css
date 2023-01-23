@@ -1,0 +1,31 @@
+.interest_container {
+    margin-top: 4em;
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(4, 200px);
+    grid-template-areas: 
+    'row1 row1'
+    'row2 row2'
+    'row3 row3'
+    'row4 row4';
+    column-gap: 60px;
+    align-items: center;
+    justify-content: center;
+}  
+
+
+.row_1 {
+    grid-area: row1;
+}
+
+.row_2 {
+    grid-area: row2;
+}
+
+.row_3 {
+    grid-area: row3;
+}
+
+.row_4 {
+    grid-area: row4;
+}
