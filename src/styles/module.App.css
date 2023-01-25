@@ -5,9 +5,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
 }
-
-
 
 img {
   border-radius: 8px;
@@ -26,6 +25,7 @@ img {
 .item_1_landing {
   grid-area: header;
   line-height: 1em;
+  margin: 15px 0px 15px 0px;
 
 }
 
@@ -38,13 +38,21 @@ img {
   padding-right: 40px;
 }
 
+.header_landing_container {
+  grid-area: header;
+  background: #4FA095;
+  color: #F6F6C9;
+  text-shadow: 0.5px 0px black;
+  border-radius: 8px;
+  box-shadow: 10px 10px #153462;
+}
+
 .info_landing_container {
   grid-area: info;
   display: grid;
   grid-template-columns: .5fr 1.25fr 1.25fr;
   grid-template-rows: auto;
   grid-template-areas: 
-  'header header header' 
   'img txt txt';
   max-width: 700px;
   background-color: #4FA095;
@@ -61,6 +69,7 @@ img {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
+  'header header'
   'info info'
   'col1 col1'
   'contact contact';
@@ -110,6 +119,7 @@ i {
 
 .contact_me_header {
   grid-area: header;
+  margin: 20px 0px 0px 0px;
 }
 
 .contact_me_subheader {
@@ -127,5 +137,5 @@ i {
 }
 
 .devicon-linkedin-plain, .devicon-github-original-wordmark {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
