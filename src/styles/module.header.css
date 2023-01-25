@@ -1,7 +1,10 @@
 .main-header {
-    font-family: 'Inspiration', cursive;
+    font-family: 'Seymour One', sans-serif;
+    min-width: 800px;
+
   }
   
   .tag {
-    font-weight: 100;
+    font-family: 'Seymour One', sans-serif;
+
   }

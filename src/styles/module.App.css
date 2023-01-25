@@ -7,6 +7,8 @@
   text-align: center;
 }
 
+
+
 img {
   border-radius: 8px;
   width: 200px;
@@ -21,37 +23,109 @@ img {
   margin: 5px;
 }
 
-.item_1 {
+.item_1_landing {
   grid-area: header;
+  line-height: 1em;
+
 }
 
-.item_2 {
+.item_2_landing {
   grid-area: img;
 }
 
-.item_3 {
+.item_3_landing {
   grid-area: txt;
   padding-right: 40px;
 }
 
-.info_container {
+.info_landing_container {
+  grid-area: info;
   display: grid;
   grid-template-columns: .5fr 1.25fr 1.25fr;
   grid-template-rows: auto;
   grid-template-areas: 
   'header header header' 
   'img txt txt';
-  max-width: 600px;
+  max-width: 700px;
   background-color: #4FA095;
   border-radius: 8px;
   color: #F6F6C9;
-  box-shadow: 10px 10px black;
+  box-shadow: 10px 10px #153462;
   text-shadow: 0.5px 0px black;
   padding-bottom: 20px;
+  align-items: center;
 }
 
-.home_container {
+.main_landing_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+  'info info'
+  'col1 col1'
+  'contact contact';
+  max-width: 700px;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.icons_container1_landing {
+  background-color: #153462;
+  box-shadow: -10px 10px #4FA095;
+  border-radius: 8px;
+  grid-area: col1;
+  color:rgb(246, 246, 201);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  text-shadow: 0.5px 0px black;
+}
+
+i {
+  font-size: 75px;
+  padding: 10px 0px 10px 0px;
+}
+
+.flex_landing_div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
+}
+
+.contact_me {
+  color:rgb(246, 246, 201);
+  background-color:#4FA095;
+  grid-area: contact;
+  border-radius: 8px;
+  text-shadow: 0.5px 0px black;
+  box-shadow: 10px 10px #153462;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  'header header header header'
+  'subheader subheader subheader subheader'
+  '. linkedin github .';
+}
+
+.contact_me_header {
+  grid-area: header;
+}
+
+.contact_me_subheader {
+  grid-area: subheader;
+}
+
+.devicon-linkedin-plain {
+  grid-area: linkedin;
+  font-size: 75px;
+}
+
+.devicon-github-original-wordmark {
+  grid-area: github;
+  font-size: 75px;
+}
+
+.devicon-linkedin-plain, .devicon-github-original-wordmark {
+  padding-bottom: 30px;
 }

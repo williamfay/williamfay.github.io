@@ -2,18 +2,25 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 600px;
+    max-width: 810px;
+    margin: 0px;
+
   }
   
   
   ul {
   
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     align-items: center;
     padding-left: 0px;
-  
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 8px;
+    border-color: #BAD1C2;
+    text-shadow: 0.5px 0px black;
+    background-color: rgb(246, 246, 201);
   }
   
   li {

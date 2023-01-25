@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './styles/module.index.css';
+import './styles/index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from './components/about-me';
 import Projects from './components/projects';
-import Hobbies from './components/hobbies';
 import History from './components/work-history';
 import Index from './index.jsx'
 
@@ -22,10 +21,6 @@ const router = createBrowserRouter([
         {
           path: 'projects',
           element: <Projects />,
-        },
-        {
-          path: 'hobbies',
-          element: <Hobbies />,
         },
         {
           path: 'history',

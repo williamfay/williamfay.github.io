@@ -1,11 +1,15 @@
 import '../styles/module.about-me.css';
-
 export default function About() {
     return (
         <>
+            <div class='top_about_container'>
+                <div class='header_about_container'>
+                    <h1 class='item_1_about'>Get to know me! </h1>
+                </div>
+            </div>
             <div class='interest_container'>
                 <div class='row_1 child'>
-                    <h1>TRAVLER</h1>
+                    <h1>TRAVELER</h1>
                     <h3>fourteen countries and counting</h3>
                 </div>
                 <div class='row_2 child'>
