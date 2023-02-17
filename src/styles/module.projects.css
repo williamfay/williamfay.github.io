@@ -1,0 +1,20 @@
+.projects_header_container {
+  background-color: #4FA095;
+  color: #F6F6C9;
+  box-shadow: 10px 10px #153462;
+  text-shadow: 0.5px 0px black;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.header_text {
+  margin-bottom: 0px;
+}
+
+.projectOne_container {
+  display: grid;
+  background-color: #153462;
+  color:#F6F6C9;
+  grid-template-columns: repeat(2, 1fr);
+}

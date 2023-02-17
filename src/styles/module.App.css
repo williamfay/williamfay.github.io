@@ -55,10 +55,10 @@ img {
   grid-template-areas: 
   'img txt txt';
   max-width: 700px;
-  background-color: #4FA095;
+  background-color: #153462;
   border-radius: 8px;
   color: #F6F6C9;
-  box-shadow: 10px 10px #153462;
+  box-shadow: -10px 10px #4FA095;
   text-shadow: 0.5px 0px black;
   padding-bottom: 20px;
   align-items: center;
@@ -79,16 +79,19 @@ img {
 }
 
 .icons_container1_landing {
-  background-color: #153462;
-  box-shadow: -10px 10px #4FA095;
+  background-color:#F6F6C9;
+  box-shadow: 10px 10px #BAD1C2;
   border-radius: 8px;
   grid-area: col1;
-  color:rgb(246, 246, 201);
+  color: #153462;
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: auto;
   text-shadow: 0.5px 0px black;
+  border-color: black;
+  border-style: solid;
+  border-width: .75px;
 }
 
 i {
@@ -102,12 +105,12 @@ i {
 }
 
 .contact_me {
-  color:rgb(246, 246, 201);
-  background-color:#4FA095;
+  color: #F6F6C9;
+  background-color: #153462;
   grid-area: contact;
   border-radius: 8px;
   text-shadow: 0.5px 0px black;
-  box-shadow: 10px 10px #153462;
+  box-shadow: -10px 10px #4FA095;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
