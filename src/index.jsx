@@ -17,7 +17,7 @@ function Index() {
         <figure class='item_2_landing'>
           <picture>
             <source srcset={headshot} />
-            <img src={headshot} />
+            <img class="headshot_img" src={headshot} />
           </picture>
         </figure>
         <h2 class='item_3_landing'>I'm an innovative software 

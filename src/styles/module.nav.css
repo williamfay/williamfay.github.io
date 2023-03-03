@@ -1,5 +1,5 @@
-nav {
-    display: flex;
+.main_nav {
+    display: inline-block;
     align-items: center;
     justify-content: center;
     max-width: 810px;
@@ -8,7 +8,7 @@ nav {
   }
   
   
-  ul {
+  .nav_ul {
   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -23,7 +23,8 @@ nav {
     background-color: rgb(246, 246, 201);
   }
   
-  li {
+  .nav_item {
     list-style: none;
     padding: 0em 1em 0em 1em;
+    font-size: x-large;
   }

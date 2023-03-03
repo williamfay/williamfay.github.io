@@ -1,20 +1,82 @@
+.project_main_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  max-width: 810px;
+  margin: 0px;
+}
+
 .projects_header_container {
+  display: flex;
+  flex-direction: column;
   background-color: #4FA095;
   color: #F6F6C9;
   box-shadow: 10px 10px #153462;
   text-shadow: 0.5px 0px black;
   border-radius: 8px;
-  padding: 10px;
+  padding: 10px 10px 20px 10px;
   margin-top: 20px;
 }
 
-.header_text {
+h1 {
   margin-bottom: 0px;
+
 }
 
-.projectOne_container {
-  display: grid;
+h2 {
+  font-size: xx-large;
+  padding: 0px 10px 0px 10px;
+}
+
+.projects_portfolio_container {
+  display: flex;
+  flex-direction: column;
   background-color: #153462;
-  color:#F6F6C9;
-  grid-template-columns: repeat(2, 1fr);
+  color: #F6F6C9;
+  box-shadow: -10px 10px #BAD1C2;
+  text-shadow: 0.5px 0px black;
+  border-radius: 8px;
+  padding: 10px 10px 20px 10px;
+  margin-top: 20px;
+}
+
+.projects_jeopardy_container {
+  display: flex;
+  flex-direction: column;
+  background-color: #BAD1C2;
+  color: #153462;
+  box-shadow: 10px 10px #4FA095;
+  text-shadow: 0.5px 0px black;
+  border-radius: 8px;
+  padding: 10px 10px 20px 10px;
+  margin-top: 20px;
+}
+
+.projects_bc_container {
+  display: flex;
+  flex-direction: column;
+  background-color: #153462;
+  color: #F6F6C9;
+  box-shadow: -10px 10px #BAD1C2;
+  text-shadow: 0.5px 0px black;
+  border-radius: 8px;
+  padding: 10px 10px 20px 10px;
+  margin-top: 20px;
+}
+
+.projects_zork_container {
+  display: flex;
+  flex-direction: column;
+  background-color: #BAD1C2;
+  color: #153462;
+  box-shadow: 10px 10px #4FA095;
+  text-shadow: 0.5px 0px black;
+  border-radius: 8px;
+  padding: 10px 10px 20px 10px;
+  margin-top: 20px;
+}
+
+.projects_img {
+  width: 600px;
+  border-radius: 8px;
 }
