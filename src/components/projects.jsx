@@ -5,6 +5,24 @@ import portfolioImg from '../assets/portfolio-ss.png';
 import zorkImg from '../assets/zork-ss.png'
 
 export default function Projects() {
+
+    const linkOne = () => {
+        window.open("https://github.com/burlingtoncodeacademy-students/react-portfolio-williamfay")
+    }
+
+    const linkTwo = () => {
+        window.open("https://github.com/burlingtoncodeacademy-students/jeopardy-board-williamfay")
+    }
+
+    const linkThree = () => {
+        window.open("https://github.com/burlingtoncode-org/collaburlate")
+    }
+
+    const linkFour = () => {
+        window.open("https://github.com/burlingtoncodeacademy-students/zorkington-williamfay")
+    }
+
+
     return (
         <>
             <div class="project_main_container">
@@ -21,7 +39,7 @@ export default function Projects() {
                         and HTML through custom and personal styling.
                     </h2>
                     <figure>
-                        <img class="projects_img" src={portfolioImg} />
+                            <img class="projects_img" src={portfolioImg} onClick={linkOne} />
                     </figure>
                 </div>
                 <div class="projects_jeopardy_container">
@@ -33,7 +51,7 @@ export default function Projects() {
                         by an object of data organized by round, value, and category. 
                     </h2>
                     <figure>
-                        <img class="projects_img" src={jeopardyImg}/>
+                        <img class="projects_img" src={jeopardyImg} onClick={linkTwo} />
                     </figure>
                 </div>
                 <div class="projects_bc_container">
@@ -47,7 +65,7 @@ export default function Projects() {
                         the database and is mobile friendly.
                     </h2>
                     <figure>
-                        <img class="projects_img" src={bcImg} />
+                        <img class="projects_img" src={bcImg} onClick={linkThree} />
                     </figure>
                 </div>
                 <div class="projects_zork_container">
@@ -59,7 +77,7 @@ export default function Projects() {
                         programming to create a player class.
                     </h2>
                     <figure>
-                        <img class="projects_img" src={zorkImg} />
+                        <img class="projects_img" src={zorkImg} onClick={linkFour} />
                     </figure>
                 </div>
             </div>

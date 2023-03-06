@@ -2,10 +2,14 @@
 
 #root {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
   text-align: center;
 
+}
+
+body {
+  justify-content: center;
 }
 
 .headshot_img {
@@ -45,42 +49,36 @@
   text-shadow: 0.5px 0px black;
   border-radius: 8px;
   box-shadow: 10px 10px #153462;
+  margin-top: 20px;
 }
 
 .info_landing_container {
   grid-area: info;
   display: grid;
-  grid-template-columns: .5fr 1.25fr 1.25fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: 
   'img txt txt';
-  max-width: 700px;
   background-color: #153462;
   border-radius: 8px;
   color: #F6F6C9;
-  box-shadow: -10px 10px #4FA095;
+  box-shadow: -10px 10px #BAD1C2;
   text-shadow: 0.5px 0px black;
-  padding-bottom: 20px;
   align-items: center;
+  margin-top: 20px;
 }
 
 .main_landing_container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas:
-  'header header'
-  'info info'
-  'col1 col1'
-  'contact contact';
-  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  max-width: 810px;
   row-gap: 20px;
   column-gap: 20px;
 }
 
 .icons_container1_landing {
-  background-color:#F6F6C9;
-  box-shadow: 10px 10px #BAD1C2;
+  background-color:#BAD1C2;
+  box-shadow: 10px 10px #4FA095;
   border-radius: 8px;
   grid-area: col1;
   color: #153462;
@@ -90,8 +88,7 @@
   grid-auto-rows: auto;
   text-shadow: 0.5px 0px black;
   border-color: black;
-  border-style: solid;
-  border-width: .75px;
+  margin-top: 20px;
 }
 
 i {
@@ -101,7 +98,10 @@ i {
 
 .flex_landing_div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  max-width: 810px;
+  margin-bottom: 40px;
 }
 
 .contact_me {
@@ -110,7 +110,7 @@ i {
   grid-area: contact;
   border-radius: 8px;
   text-shadow: 0.5px 0px black;
-  box-shadow: -10px 10px #4FA095;
+  box-shadow: -10px 10px #BAD1C2;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -118,6 +118,7 @@ i {
   'header header header header'
   'subheader subheader subheader subheader'
   '. linkedin github .';
+  margin-top: 20px;
 }
 
 .contact_me_header {
@@ -142,3 +143,4 @@ i {
 .devicon-linkedin-plain, .devicon-github-original-wordmark {
   padding-bottom: 50px;
 }
+
