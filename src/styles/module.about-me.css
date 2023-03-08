@@ -2,7 +2,7 @@
     display: grid;
     grid-row-gap: 20px;
     max-width: 810px;
-
+    margin-bottom: 40px;
 }
 
 .header_about_container, .child {
@@ -15,6 +15,7 @@
     margin-top: 20px;
     background-color: #4FA095;
     box-shadow: 10px 10px #153462;
+    padding: 10px;
 }
 
 .item_1_about {
@@ -49,3 +50,14 @@
 .about-text-1, .about-text-2, .about-text-3, .about-text-4 {
     margin: 40px 20px;
 }
+
+h1 {
+    margin-bottom: 0px;
+    line-height: 1em;
+  
+  }
+  
+  h2 {
+    font-size: xx-large;
+    padding: 0px 10px 0px 10px;
+  }

@@ -3,7 +3,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   max-width: 810px;
-  margin: 0px;
+  margin-bottom: 40px;
 }
 
 .projects_header_container {
@@ -80,4 +80,8 @@ h2 {
 .projects_img {
   width: 600px;
   border-radius: 8px;
+}
+
+img:hover {
+  cursor: pointer;
 }

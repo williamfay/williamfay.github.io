@@ -144,3 +144,6 @@ i {
   padding-bottom: 50px;
 }
 
+.devicon-github-original-wordmark, .devicon-linkedin-plain:hover {
+  cursor: pointer;
+}

@@ -1,8 +1,8 @@
 import '../styles/module.projects.css';
-import jeopardyImg from '../assets/jeopardy_screenshot.png';
-import bcImg from '../assets/contact-page-ss.png';
-import portfolioImg from '../assets/portfolio-ss.png';
-import zorkImg from '../assets/zork-ss.png'
+import jeopardyImg from "../../public/jeopardy_screenshot.png";
+import bcImg from '../../public/contact-page-ss.png';
+import portfolioImg from '../../public/portfolio-ss.png';
+import zorkImg from '../../public/zork-ss.png'
 
 export default function Projects() {
 
@@ -24,7 +24,7 @@ export default function Projects() {
 
 
     return (
-        <>
+
             <div class="project_main_container">
                 <div class='projects_header_container'>
                     <h1 class='header_text'>My Projects</h1>
@@ -39,7 +39,7 @@ export default function Projects() {
                         and HTML through custom and personal styling.
                     </h2>
                     <figure>
-                            <img class="projects_img" src={portfolioImg} onClick={linkOne} />
+                            <img class="projects_img" src={portfolioImg} alt="Screenshot of portfolio code from GitHub" onClick={linkOne} />
                     </figure>
                 </div>
                 <div class="projects_jeopardy_container">
@@ -51,7 +51,7 @@ export default function Projects() {
                         by an object of data organized by round, value, and category. 
                     </h2>
                     <figure>
-                        <img class="projects_img" src={jeopardyImg} onClick={linkTwo} />
+                        <img class="projects_img" src={jeopardyImg} alt="First round page of jeopardy game with Matterhorn as the background image"onClick={linkTwo} />
                     </figure>
                 </div>
                 <div class="projects_bc_container">
@@ -65,7 +65,7 @@ export default function Projects() {
                         the database and is mobile friendly.
                     </h2>
                     <figure>
-                        <img class="projects_img" src={bcImg} onClick={linkThree} />
+                        <img class="projects_img" src={bcImg} alt="Screenshot of Burlington Code website code from GitHub" onClick={linkThree} />
                     </figure>
                 </div>
                 <div class="projects_zork_container">
@@ -77,10 +77,10 @@ export default function Projects() {
                         programming to create a player class.
                     </h2>
                     <figure>
-                        <img class="projects_img" src={zorkImg} onClick={linkFour} />
+                        <img class="projects_img" src={zorkImg} alt="Screenshot of Zorkington code from GitHub" onClick={linkFour} />
                     </figure>
                 </div>
             </div>
-        </>
+
     )
 }

@@ -1,0 +1,134 @@
+.history-main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    max-width: 810px;
+    margin: 0px 0px 40px 0px;
+}
+
+.history-top-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #4FA095;
+    color: #F6F6C9;
+    box-shadow: 10px 10px #153462;
+    text-shadow: 0.5px 0px black;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+}
+
+.button-flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.history-button-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #4FA095;
+    color: #F6F6C9;
+    text-shadow: 0.5px 0px black;
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.download-button {
+    background-color: #F6F6C9;
+    color:#153462;
+    border: none;
+    text-shadow: 0.5px 0px black;
+    font-size: x-large;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: transform .5s ease-in-out;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
+.history-dev-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #153462;
+    color: #F6F6C9;
+    box-shadow: -10px 10px #BAD1C2;
+    text-shadow: 0.5px 0px black;
+    border-radius: 8px;
+    padding: 10px 10px 20px 10px;
+    margin-top: 20px;
+}
+
+.badges-fig {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.badge {
+    width: 150px;
+    height: auto;
+    transition: transform .5s ease-in-out;
+}
+
+.badge:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
+.history-ed-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #BAD1C2;
+    color: #153462;
+    box-shadow: 10px 10px #4FA095;
+    text-shadow: 0.5px 0px black;
+    border-radius: 8px;
+    padding: 10px 10px 20px 10px;
+    margin-top: 20px;
+}
+
+.history-nonprofit-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #153462;
+    color: #F6F6C9;
+    box-shadow: -10px 10px #BAD1C2;
+    text-shadow: 0.5px 0px black;
+    border-radius: 8px;
+    padding: 10px 10px 20px 10px;
+    margin-top: 20px;
+}
+
+.top-header {
+    margin: 40px;
+}
+
+h1 {
+    margin-bottom: 0px;
+    line-height: 1em;
+  
+}
+  
+h2 {
+    font-size: xx-large;
+    padding: 0px 10px 0px 10px;
+}
+
+li {
+    text-align: left;
+    padding: 5px 60px 5px 20px;
+    font-size: large;
+}
+
+p {
+    text-align: left;
+    padding: 5px 60px 5px 60px;
+    font-size: large;
+}
