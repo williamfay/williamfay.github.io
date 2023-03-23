@@ -42,6 +42,11 @@ body {
   padding-right: 40px;
 }
 
+.item_4_landing {
+  grid-area: item4;
+
+}
+
 .header_landing_container {
   grid-area: header;
   background: #4FA095;
@@ -58,7 +63,8 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas: 
-  'img txt txt';
+  'img txt txt'
+  'item4 item4 item4';
   background-color: #153462;
   border-radius: 8px;
   color: #F6F6C9;

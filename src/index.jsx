@@ -32,6 +32,7 @@ function Index() {
           and creative with a passion for 
           development and learning on all levels. 
           </h2>
+          <h2 class='item_4_landing'>**Mobile-friendly updates coming soon!**</h2>
         </div>
         <div class='icons_container1_landing'>
           <i class="devicon-html5-plain-wordmark" alt="HTML icon" ></i>
