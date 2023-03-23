@@ -1,11 +1,11 @@
 {
-  "name": "portfolio-vite-react-router",
+  "name": "react-portfolio-williamfay",
   "private": true,
   "version": "1.0.0",
   "homepage": "https://williamfay.github.io",
   "type": "module",
   "author": {
-    "name": "Joshua Burke, Upright Education Inc."
+    "name": "William Fay"
   },
   "scripts": {
     "dev": "vite",
