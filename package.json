@@ -2,7 +2,7 @@
   "name": "portfolio-vite-react-router",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://williamfay.github.io/react-portfolio-williamfay",
+  "homepage": "https://williamfay.github.io",
   "type": "module",
   "author": {
     "name": "Joshua Burke, Upright Education Inc."
@@ -12,7 +12,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
