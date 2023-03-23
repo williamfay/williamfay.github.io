@@ -7,11 +7,11 @@ import zorkImg from '../../public/zork-ss.png'
 export default function Projects() {
 
     const linkOne = () => {
-        window.open("https://github.com/burlingtoncodeacademy-students/react-portfolio-williamfay")
+        window.open("https://github.com/williamfay/williamfay.github.io/tree/main")
     }
 
     const linkTwo = () => {
-        window.open("https://github.com/burlingtoncodeacademy-students/jeopardy-board-williamfay")
+        window.open("https://github.com/williamfay/jeopardy-board-williamfay")
     }
 
     const linkThree = () => {
