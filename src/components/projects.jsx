@@ -19,7 +19,7 @@ export default function Projects() {
     }
 
     const linkFour = () => {
-        window.open("https://github.com/burlingtoncodeacademy-students/zorkington-williamfay")
+        window.open("https://github.com/williamfay/zorkington-haunted-house")
     }
 
 
