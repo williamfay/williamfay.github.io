@@ -28,3 +28,24 @@
     padding: 0em 1em 0em 1em;
     font-size: x-large;
   }
+
+  @media screen and (max-width: 810px) {
+    .main_nav {
+      display: flex;
+      
+
+    }
+    .nav_ul {
+      display: flex;
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center; 
+      max-width: 130px;
+      padding: 0; 
+    }
+  
+    .nav_item {
+      padding: 3px;
+      font-size: medium;
+    }
+  }

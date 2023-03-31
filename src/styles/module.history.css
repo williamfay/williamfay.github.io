@@ -14,7 +14,6 @@
     box-shadow: 10px 10px #153462;
     text-shadow: 0.5px 0px black;
     border-radius: 8px;
-    padding: 10px 10px 10px 10px;
     margin-top: 20px;
 }
 
@@ -107,16 +106,17 @@ button:hover {
 }
 
 .top-header {
-    margin: 40px;
+    margin: 15px;
+    line-height: 1em;
 }
 
-h1 {
+.dev-header, .ed-header, .np-header {
     margin-bottom: 0px;
     line-height: 1em;
   
 }
   
-h2 {
+.dev-subhead, .ed-subhead, .np-subhead {
     font-size: xx-large;
     padding: 0px 10px 0px 10px;
 }
@@ -127,8 +127,67 @@ li {
     font-size: large;
 }
 
-p {
+.paragraph {
     text-align: left;
     padding: 5px 60px 5px 60px;
     font-size: large;
+    text-align: center;
+}
+
+@media screen and (max-width: 810px) {
+    .dev-header, .ed-header, .np-header {
+        font-size: x-large;
+        margin: 15px 10px 0px 10px;
+    }
+
+    .top-header {
+        font-size: x-large;
+        margin: 15px 10px 15px 10px;
+    }
+
+    .history-top-header {
+        padding: 0;
+    }
+
+    .dev-subhead, .ed-subhead, .np-subhead {
+        font-size: larger;
+        padding: 0;
+        margin: 15px 10px 0px 10px
+    }
+
+    .paragraph {
+        padding: 0;
+        margin: 15px 10px 0px 10px;
+        font-size: large;
+    }
+
+    .badges-fig {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .badge {
+        margin: 15px 10px 0px 10px;
+    }
+
+    .history-dev-container, .history-ed-container, .history-nonprofit-container {
+        padding: 0px 0px 15px 0px;
+    }
+
+    .edInfo-class-0, .edInfo-class-1, .edInfo-class-2, .edInfo-class-3,
+    .edInfo-class-4, .edInfo-class-5, .edInfo-class-6, .edInfo-class-7, .npInfo-class-0, .npInfo-class-1, .npInfo-class-2, .npInfo-class-3,
+    .npInfo-class-4, .npInfo-class-5, .npInfo-class-6, .npInfo-class-7 {
+        font-size: medium;
+    }
+
+    .download-button {
+        font-size: medium;
+        width: 100px;
+        height: 100px;
+    }
+
+    .history-button-container {
+        width: 100px;
+        height: 100px;
+    }
 }

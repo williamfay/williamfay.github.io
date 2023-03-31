@@ -15,14 +15,13 @@
     margin-top: 20px;
     background-color: #4FA095;
     box-shadow: 10px 10px #153462;
-    padding: 10px;
 }
 
 .item_1_about {
-    margin: 0px;
-    margin: 40px 0px 40px 0px;
+    margin: 15px 0px 15px 0px;
     color: #F6F6C9;
     text-shadow: 0.5px 0px black;
+    line-height: 1em;
 }
 
 .row_1, .row_3 {
@@ -51,13 +50,29 @@
     margin: 40px 20px;
 }
 
-h1 {
+.about-sub-head-1, .about-sub-head-2, .about-sub-head-3, .about-sub-head-4 {
     margin-bottom: 0px;
     line-height: 1em;
   
   }
   
-  h2 {
+.about-text-1, .about-text-2, .about-text-3, .about-text-4 {
     font-size: xx-large;
     padding: 0px 10px 0px 10px;
+  }
+
+  @media screen and (max-width: 810px) {
+    .item_1_about, .about-sub-head-1, .about-sub-head-2, .about-sub-head-3, .about-sub-head-4 {
+        font-size: x-large;
+    }
+
+    .about-text-1, .about-text-2, .about-text-3, .about-text-4 {
+        font-size: larger;
+        margin: 15px;
+        padding: 0;
+    }
+
+    .about-sub-head-1, .about-sub-head-2, .about-sub-head-3, .about-sub-head-4 {
+        margin-top: 15px;
+    }
   }
