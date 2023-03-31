@@ -25,7 +25,7 @@ function Index() {
               <img class="headshot_img" src={headshot} alt="picture of porfolio creator hiking in Alps" />
             </picture>
           </figure>
-          <h2 class='item_3_landing'>I'm an innovative software 
+          <h2 class='item_3_landing'>Hi, I'm Will! I'm an innovative software 
           developer experienced 
           in the full software development lifecycle. 
           I am goal-oriented, collaborative, 

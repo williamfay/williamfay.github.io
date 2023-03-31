@@ -14,19 +14,20 @@
   box-shadow: 10px 10px #153462;
   text-shadow: 0.5px 0px black;
   border-radius: 8px;
-  padding: 10px 10px 20px 10px;
+  padding: 0;
   margin-top: 20px;
 }
 
 h1 {
-  margin-bottom: 0px;
+  margin: 15px 0px 0px 0px;
   line-height: 1em;
 
 }
 
 h2 {
   font-size: xx-large;
-  padding: 0px 10px 0px 10px;
+  padding: 0;
+  margin: 15px 10px;
 }
 
 .projects_portfolio_container {
@@ -84,4 +85,32 @@ h2 {
 
 img:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 810px) {
+  .header_text, .portfolio_text, .jeopardy_text, .bc_text, .zork_text {
+    font-size: x-large;
+    margin: 15px 10px 0px 10px;
+  }
+
+  .portfolio_info, .header_info, .jeopardy_info, .bc_info, .zork_info {
+    font-size: larger;
+    margin: 15px 10px 0px 10px;
+  }
+
+  .header_info {
+    margin-bottom: 15px;
+  }
+
+  .projects_img {
+    width: 75vw;
+  }
+
+  .projects_header_container, .projects_portfolio_container, .projects_jeopardy_container, .projects_bc_container, .projects_zork_container {
+    padding: 0;
+  }
+
+  figure {
+    margin: 15px 0px 15px 0px;
+  }
 }

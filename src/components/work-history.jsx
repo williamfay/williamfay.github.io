@@ -69,16 +69,16 @@ export default function History() {
                     </div>
                 </div>
                 <div className="history-dev-container">
-                    <h1 class="dev-header">Software Developmente</h1>
+                    <h1 class="dev-header">Software Development</h1>
                     <h2 class="dev-subhead">Burlington Code Academy at Upright Education</h2>
-                    <p>I attended the six-month part-time bootcamp with a focus on MERN stack. Please see badges below:</p>
+                    <p className="paragraph">I attended the six-month part-time bootcamp with a focus on MERN stack. Please see badges below:</p>
                     <figure className="badges-fig">
                         <img onClick={() => openInNewTab(reactLink)} alt="Upright Ed React Front-End Application Development Badge" className="badge" src={reactBadge}></img>
                         <img onClick={() => openInNewTab(javaScriptLink)} alt="Upright Ed JavaScript Application Badge" className="badge" src={javaScriptBadge}></img>
                         <img onClick={() => openInNewTab(backEndLink)}  alt="Upright Ed Express and MongoDB Back-End Application Development Badge" className="badge" src={backEndBadge}></img>
                     </figure>
                     <h2 className="dev-subhead">Udemy</h2>
-                    <p>I am currently completing Udemy's The Modern Python 3 Bootcamp. Badge coming soon!</p>
+                    <p className="paragraph">I am currently completing Udemy's The Modern Python 3 Bootcamp. Badge coming soon!</p>
                 </div>
                 <div className="history-ed-container" id="history-ed-container">
                     <h1 className="ed-header">Teaching</h1>

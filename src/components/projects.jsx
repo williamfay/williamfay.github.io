@@ -38,7 +38,7 @@ export default function Projects() {
                         navigate pages. The site demonstrates my expertise in CSS 
                         and HTML through custom and personal styling.
                     </h2>
-                    <figure>
+                    <figure className="projects-fig">
                             <img class="projects_img" src={portfolioImg} alt="Screenshot of portfolio code from GitHub" onClick={linkOne} />
                     </figure>
                 </div>
@@ -50,7 +50,7 @@ export default function Projects() {
                         The game throws out questions and scores as indicated
                         by an object of data organized by round, value, and category. 
                     </h2>
-                    <figure>
+                    <figure className="projects-fig">
                         <img class="projects_img" src={jeopardyImg} alt="First round page of jeopardy game with Matterhorn as the background image"onClick={linkTwo} />
                     </figure>
                 </div>
@@ -64,7 +64,7 @@ export default function Projects() {
                         The site also has a contact page that sends contact data to
                         the database and is mobile friendly.
                     </h2>
-                    <figure>
+                    <figure className="projects-fig">
                         <img class="projects_img" src={bcImg} alt="Screenshot of Burlington Code website code from GitHub" onClick={linkThree} />
                     </figure>
                 </div>
@@ -76,7 +76,7 @@ export default function Projects() {
                         escape the house. This game utilizes JavaScript object-oriented
                         programming to create a player class.
                     </h2>
-                    <figure>
+                    <figure className="projects-fig">
                         <img class="projects_img" src={zorkImg} alt="Screenshot of Zorkington code from GitHub" onClick={linkFour} />
                     </figure>
                 </div>
