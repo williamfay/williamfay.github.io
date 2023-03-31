@@ -15,7 +15,7 @@ export default function Projects() {
     }
 
     const linkThree = () => {
-        window.open("https://github.com/burlingtoncode-org/collaburlate")
+        window.open("#")
     }
 
     const linkFour = () => {
@@ -57,10 +57,11 @@ export default function Projects() {
                 <div class="projects_bc_container">
                     <h1 class="bc_text">Burlington Code Website Build</h1>
                     <h2 class="bc_info">
+                        Please note that this repository is currently private and I am still working on making it public.
                         This was my cohort's capstone project for our bootcamp.
                         The site has a Next.js frontend and a MongoDB backend.
                         It allows venues to post time available for events
-                        to be hosted and groups to select avaible time for their events.
+                        to be hosted and groups to select available time for their events.
                         The site also has a contact page that sends contact data to
                         the database and is mobile friendly.
                     </h2>
