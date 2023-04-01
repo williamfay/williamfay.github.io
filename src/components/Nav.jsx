@@ -1,7 +1,13 @@
 import '../styles/module.nav.css'
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 export default function Nav() {
+    const [showNav, setShowNav] = useState(false);
+
+    const toggleNav = () => {
+        setShowNav(!showNav)
+    };
     return (
         <>
         <nav class="main_nav">

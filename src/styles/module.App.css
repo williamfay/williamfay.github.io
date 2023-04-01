@@ -180,6 +180,11 @@ i {
     font-size:x-large
   }
 
+  .item_1_landing {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
   .item_3_landing, .contact_me_subheader {
     font-size:larger;
   }
