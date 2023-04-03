@@ -3,6 +3,7 @@ import reactBadge from "../../public/react-front-end-development.png";
 import javaScriptBadge from "../../public/javascript-development-foundations.png";
 import backEndBadge from "../../public/express-mongodb-back-end-development.png"
 import resume from "../../public/Resume_William_Fay.pdf"
+import FadeIn from './fade-in';
 
 export default function History() {
     const backEndLink = 'https://www.credly.com/badges/5ea35f8d-3d1e-46c7-839e-f8f6c842b246/public_url'
@@ -58,7 +59,7 @@ export default function History() {
     }
 
     return (
-        <>
+        <FadeIn>
             <div className="history-main-container">
                 <div className="history-top-header">
                     <h1 className="top-header">Work History</h1>
@@ -95,6 +96,6 @@ export default function History() {
                     </ul>
                 </div>
             </div>
-        </>
+        </FadeIn>
     )
 }

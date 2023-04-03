@@ -2,9 +2,11 @@ import '../styles/module.projects.css';
 import jeopardyImg from "../../public/jeopardy_screenshot.png";
 import bcImg from '../../public/contact-page-ss.png';
 import portfolioImg from '../../public/portfolio-ss.png';
-import zorkImg from '../../public/zork-ss.png'
+import zorkImg from '../../public/zork-ss.png';
+import FadeIn from './fade-in';
 
 export default function Projects() {
+   
 
     const linkOne = () => {
         window.open("https://github.com/williamfay/williamfay.github.io/tree/main")
@@ -24,7 +26,7 @@ export default function Projects() {
 
 
     return (
-
+            <FadeIn>
             <div class="project_main_container">
                 <div class='projects_header_container'>
                     <h1 class='header_text'>My Projects</h1>
@@ -82,6 +84,6 @@ export default function Projects() {
                     </figure>
                 </div>
             </div>
-
+        </FadeIn>
     )
 }

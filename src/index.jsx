@@ -1,6 +1,6 @@
 import "./styles/module.App.css";
 import headshot from '../public/alps-photo.jpeg';
-
+import FadeIn from './components/fade-in';
 
 function Index() {
   
@@ -12,6 +12,7 @@ function Index() {
 
 
     return (
+      <FadeIn>
       <div class='flex_landing_div'>
 
             <div class='header_landing_container'>
@@ -61,6 +62,7 @@ function Index() {
           </i>
         </div>
       </div>
+      </FadeIn>
     )
 }
 

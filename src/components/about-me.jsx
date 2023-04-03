@@ -1,6 +1,11 @@
 import '../styles/module.about-me.css';
+import FadeIn from './fade-in';
+
+
 export default function About() {
+    
     return (
+        <FadeIn>
         <div className="about_container">
                 <div class='header_about_container'>
                     <h1 class='item_1_about'>Get to know me! </h1>
@@ -22,5 +27,6 @@ export default function About() {
                     <h2 class="about-text-4">My two cats, Noodle and Tatum, bring joy to my life</h2>
                 </div>
         </div>
+        </FadeIn>
     )
 }
